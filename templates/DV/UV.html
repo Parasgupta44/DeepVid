@@ -1,0 +1,20 @@
+{% extends 'home.html' %}
+
+
+{% load static %}
+{% block body %}
+<h2 style="color: #eeeeee;margin: 5px">Welcome to DeepVideo</h2>
+    <p style="color: #eeeeee;margin: 5px">Video classifier based on deep learning.</p>
+<form enctype="multipart/form-data" method="POST" action="">
+{% csrf_token %}
+<input type ="file" name ="myfile">
+<input type="submit" value="Upload"/>
+</form>
+
+ {% if uploaded_file_url %}
+    <p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+  {% endif %}
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'p3plcpnl0769'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script><script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'p3plcpnl0769'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
+
+{% endblock %}

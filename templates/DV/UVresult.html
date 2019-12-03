@@ -1,0 +1,12 @@
+{% extends 'home.html' %}
+{% block body %}
+    <br><br>
+
+<video style = "display:block;width:900px;" autoplay controls>
+<source src="{{ vidloc }}" type='video/mp4'>
+Your browser does not support the video tag.
+</video>
+<br><br>
+<h3>{{ result }}</h3>
+
+{% endblock %}
