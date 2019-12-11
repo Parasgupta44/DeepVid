@@ -1,1 +1,1 @@
-##Human Activity Recognition using Convolution Neural Networks
+# Human Activity Recognition using Convolution Neural Networks
