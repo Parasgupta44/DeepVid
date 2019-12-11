@@ -27,7 +27,7 @@ def UploadVideo(request):
         #if form.is_valid():
         #    form.save()
         #lastvideo = Video.objects.last()
-        print("MEDIA URL MADARCHOD M,ADEGBSTRKGVTRHNGITRGVRT////////////////////////////////////////////////////////////////////////////////")
+        print("////////////////////////////////////////////////////////////////////////////////")
         #print(settings.MEDIA_URL)
         #print(settings.BASE_DIR)
         #videofile = lastvideo.vid
@@ -36,7 +36,7 @@ def UploadVideo(request):
         #loc = settings.MEDIA_URL + videofile
         vidloc = settings.BASE_DIR + '\media\\' + filename
         print(
-            "MEDIA URL MADARCHOD M,ADEGBSTRKGVTRHNGITRGVRT////////////////////////////////////////////////////////////////////////////////")
+            "////////////////////////////////////////////////////////////////////////////////")
         print('vidloc\t' + vidloc )
         print(settings.BASE_DIR)
         result = ModelKi(vidloc,settings.BASE_DIR)
