@@ -1,3 +1,5 @@
 *.hdf5
 venv/
 *.mov
+*.mp4
+*.avi

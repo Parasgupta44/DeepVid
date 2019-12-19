@@ -1,0 +1,28 @@
+{% extends 'home.html' %}
+
+{% load static %}
+
+{#<title>About Us</title>#}
+{% block body %}
+
+
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron ml-5">
+            <div class="container">
+                <h1 class="display-3" style="color:black;">DeepVid!</h1>
+                <p style="color:black;">The project builds an efficient code for action recognition (humans) using
+                    UCF101 (http://crcv.ucf.edu/data/UCF101.php) with the help of Keras(https://keras.io/). Convolution
+                    Neural Networks are used for training the dataset. Also, accuracies are compared for different
+                    pre-trained models on [Imagenet](http://www.image-net.org/). Videos can be viewed as a sequences of
+                    images(frames).</p>
+                <p><a class="btn btn-dark btn-lg" href="#" role="button">Learn more »</a></p>
+            </div>
+        </div>
+
+    </main>
+
+
+
+{% endblock %}
