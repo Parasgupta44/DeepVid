@@ -1,6 +1,6 @@
 # Human Activity Recognition using Convolution Neural Networks
 
-The given repository builds an efficient code for action recognition (humans) using [UCF101](http://crcv.ucf.edu/data/UCF101.php) with the help of [Keras](https://keras.io/). Convolution Neural Networks are used for training the dataset. Also, accuracies are compared for different pre-trained models trained on [Imagenet](http://www.image-net.org/) dataset. Videos can be viewed as a sequences of images(frames), thats why can be processed in ways similar to images.
+The given repository builds an efficient code for action recognition (humans) using [UCF101](http://crcv.ucf.edu/data/UCF101.php) with the help of [Keras](https://keras.io/). Convolution Neural Networks are used for training the dataset. Also, accuracies are compared for different pre-trained models trained on [Imagenet](http://www.image-net.org/) dataset. Videos can be viewed as a sequences of images(frames), thats why they can be processed in ways similar to images.
 
 ![alt text](./figs/Box.gif)
 
@@ -10,7 +10,7 @@ The given repository builds an efficient code for action recognition (humans) us
 
 [UCF101](http://crcv.ucf.edu/data/UCF101.php) is an action recognition data set of realistic action videos, collected from YouTube, having 101 action categories. It consists a total of 13,320 videos from 101 actions.  
 
-The video preprocessing has been done using [OpenVC](https://opencv.org/). Each videos is 25 fps. To reduce the amount of redundant data to be fed into the network, 1 frame per second from each video is extracted which later on is fed into the network model. [FFmpeg](https://www.ffmpeg.org/) can also be used for preprocessing the video data into frames.
+The video preprocessing has been done using [OpenCV](https://opencv.org/). Each videos is 25 fps. To reduce the amount of redundant data to be fed into the network, 1 frame per second from each video is extracted which later on is fed into the network model. [FFmpeg](https://www.ffmpeg.org/) can also be used for preprocessing the video data into frames.
 
 ![alt text](./figs/ucf101.png)
 
@@ -40,7 +40,7 @@ The best model outputs will be automatically saved with the code provided in the
 
 ### Testing
 
-The code provided in the [`DV/model_pred.py`]() file is used for testing.
+The code provided in the [`DV/model_pred.py`](./DV/model_pred.py) file is used for testing.
 
 ### Test Outputs
 
