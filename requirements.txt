@@ -49,7 +49,7 @@ tensorflow-estimator==2.0.0
 termcolor==1.1.0
 Theano==1.0.4
 tqdm==4.38.0
-urllib3==1.25.3
+urllib3==1.26.5
 virtualenv==16.7.7
 Werkzeug==0.15.5
 wrapt==1.11.2
