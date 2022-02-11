@@ -29,7 +29,7 @@ opt-einsum==3.1.0
 pandas==0.25.3
 Pillow==6.2.1
 progressbar2==3.47.0
-protobuf==3.9.1
+protobuf==3.15.0
 pycfg==0.1
 pyparsing==2.4.5
 python-dateutil==2.8.1
