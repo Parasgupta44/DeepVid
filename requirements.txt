@@ -44,7 +44,7 @@ sklearn==0.0
 sqlparse==0.3.0
 staticfg==0.9.4
 tensorboard==2.0.0
-tensorflow==2.0.0
+tensorflow==2.9.3
 tensorflow-estimator==2.0.0
 termcolor==1.1.0
 Theano==1.0.4
